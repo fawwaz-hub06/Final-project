@@ -600,6 +600,14 @@ header {
   margin-top: 20pxF;
 }
 
+.contact iframe{
+  width: 70%;
+  height: 200px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .contact-wrapper {
@@ -659,4 +667,5 @@ header {
     flex-direction: column;
     text-align: center;
   }
+
 }
